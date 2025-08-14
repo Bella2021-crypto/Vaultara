@@ -1,0 +1,1 @@
+export default function Success(){ return (<div className="bg-white p-8 rounded-xl shadow"><h2 className="text-2xl font-bold mb-2">Payment Successful</h2><p>Thanks! Your order was received.</p></div>) }

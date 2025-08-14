@@ -1,0 +1,30 @@
+[
+  {
+    "id": "p1",
+    "name": "Wireless Headphones",
+    "price": 25000,
+    "image": "/logo.svg",
+    "description": "Crisp sound, long battery."
+  },
+  {
+    "id": "p2",
+    "name": "Smartwatch S3",
+    "price": 42000,
+    "image": "/logo.svg",
+    "description": "Fitness + notifications."
+  },
+  {
+    "id": "p3",
+    "name": "Portable Speaker",
+    "price": 32000,
+    "image": "/logo.svg",
+    "description": "Loud. Compact. Waterproof."
+  },
+  {
+    "id": "p4",
+    "name": "Gaming Mouse",
+    "price": 18000,
+    "image": "/logo.svg",
+    "description": "Ultra-light and precise."
+  }
+]
