@@ -1,0 +1,14 @@
+
+:root{--gold:#D4AF37;--gold2:#e6c76a;--gold3:#b38e1c;--black:#0b0b0c;--off:#eaeaea}
+*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;font-family:ui-serif,Georgia,Cambria,'Times New Roman',Times,serif;color:var(--off);background:var(--black);opacity:0;animation:fadeIn 800ms ease-out forwards}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.hero{position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:clamp(72px,16vh,180px);overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background-image:radial-gradient(1000px 500px at 70% 28%,rgba(212,175,55,.18),transparent 60%),url('https://images.unsplash.com/photo-1526413237413-839f3fb2be0f?q=80&w=2400&auto=format&fit=crop');background-size:cover,cover;background-position:center,center;filter:saturate(.9) contrast(1.05) brightness(.78);z-index:0}
+.overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.2),rgba(0,0,0,.65))}
+.brand{position:relative;z-index:2;text-align:center;display:flex;flex-direction:column;gap:16px;align-items:center}
+.wordmark{font-size:clamp(40px,6vw,76px);letter-spacing:.14em;font-weight:600;text-transform:uppercase;background:linear-gradient(92deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.emblem-wrap{width:min(160px,24vw)}
+.tag{margin-top:10px;letter-spacing:.22em;font-size:clamp(14px,1.8vw,16px);color:#f3f3f3;opacity:.92}
+.banner{position:relative;z-index:2;margin-top:clamp(60px,12vh,140px);padding:32px 18px;text-align:center;border-top:1px solid rgba(212,175,55,.14);border-bottom:1px solid rgba(212,175,55,.12);background:linear-gradient(180deg,rgba(10,10,11,.75),rgba(16,16,19,.75))}
+.banner h2{margin:0;font-size:clamp(22px,3.8vw,36px);letter-spacing:.22em;color:var(--gold)}
